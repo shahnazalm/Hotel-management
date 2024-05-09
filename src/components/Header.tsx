@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="py-10 px-4 container mx-auto text-xl flex flex-wrap md:flex-nowrap items-center justify-betweem">
       <div className="flex items-center w-full md:2/3">
-        <Link href={"/"} className="font-black text-[#F27405] ">
+        <Link href={"/"} className="font-black text-tertiary-light ">
           Hotelzz
         </Link>
         <ul className="flex item-center ml-5">
@@ -29,7 +29,7 @@ const Header = () => {
           <Link href={"/room"}>Rooms</Link>
         </li>
         <li className="hover:-translate-y-2 duration-500 transition-all">
-          <Link href={"/"}>Contact</Link>
+          <Link href={"/"}>Contant</Link>
         </li>
       </ul>
     </header>
